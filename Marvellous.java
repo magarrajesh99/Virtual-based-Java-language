@@ -1,5 +1,4 @@
 import java.lang.*;
-
 class Arithematic
 {
 	//Characteristics
@@ -34,7 +33,7 @@ class Arithematic
 
 class Marvellous
 {
-	public static void main(String arg[])
+	public static void main(String args[])
 	{
 		System.out.println("Inside main");
 		Arithematic obj1;		//Reference
@@ -43,10 +42,10 @@ class Marvellous
 
 		int ret=0;
 		ret=obj2.Addition();
-		System.out.println("Addition is:",+ret);
+		System.out.println("Addition is:"+ret);
 		
 		ret=obj2.Substraction();
-		System.out.println("Substraction is:",+ret);
+		System.out.println("Substraction is:"+ret);
 		
 	}
 }
